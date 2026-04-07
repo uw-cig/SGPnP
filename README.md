@@ -86,16 +86,10 @@ We adopt the code structure from [Deepinverse repo](https://deepinv.github.io/de
 If you find our work useful, please consider citing
 
 ```
-@article{park2026scorepnp,
-  title={Stochastic Generatie Plug-and-Play Priors},
-	author={Park, Chicago Y.
-		and Chandler, Edward P.
-		and Hu, Yuyang
-		and McCann, Michael T.
-		and Garcia-Cardona, Cristina
-		and Wohlberg, Brendt
-		and Kamilov, Ulugbek S.},
-  journal   = {arXiv:},
-  year      = {2026}
+@article{park2026SGPnP,
+  title={Stochastic Generative Plug-and-Play Priors},
+  author={Park, Chicago Y. and Chandler, Edward P. and Hu, Yuyang and McCann, Michael T. and Garcia-Cardona, Cristina and Wohlberg, Brendt and Kamilov, Ulugbek S.},
+  journal={arXiv:2604.03603},
+  year={2026}
 }
 ```
