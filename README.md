@@ -1,6 +1,6 @@
 # Stochastic Generative Plug-and-Play Priors
 
-[[arXiv]](https://arxiv.org/abs/2412.11108)
+[[arXiv]](https://arxiv.org/abs/2604.03603)
 
 ![cover-img](./figures/cover.png)
 
