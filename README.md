@@ -41,30 +41,30 @@ pip install -r requirements.txt
 
 #### Stochastic Generative Plug-and-Play (SGPnP)
 
-  - `configs/SGPnP_PGM/SGPnP_PGM_ffhq_superresolution.yaml`
-  - `configs/SGPnP_PGM/SGPnP_PGM_ffhq_blur.yaml`
-  - `configs/SGPnP_PGM/SGPnP_PGM_ffhq_boxinpainting.yaml`
-  - `configs/SGPnP_ADMM/SGPnP_ADMM_ffhq_blur.yaml`
-  - `configs/SGPnP_DPIR/SGPnP_DPIR_ffhq_blur.yaml`
+  - `configs/SGPnP_PGM/SGPnP_PGM_ffhq_superresolution.py`
+  - `configs/SGPnP_PGM/SGPnP_PGM_ffhq_blur.py`
+  - `configs/SGPnP_PGM/SGPnP_PGM_ffhq_boxinpainting.py`
+  - `configs/SGPnP_ADMM/SGPnP_ADMM_ffhq_blur.py`
+  - `configs/SGPnP_DPIR/SGPnP_DPIR_ffhq_blur.py`
 
 #### Score-based Deterministic Plug-and-Play (SDPnP)
 
-  - `configs/SDPnP_PGM/SDPnP_PGM_ffhq_superresolution.yaml`
-  - `configs/SDPnP_PGM/SDPnP_PGM_ffhq_blur.yaml`
-  - `configs/SDPnP_PGM/SDPnP_PGM_ffhq_boxinpainting.yaml`
-  - `configs/SDPnP_ADMM/SDPnP_ADMM_ffhq_blur.yaml`
-  - `configs/SDPnP_DPIR/SDPnP_DPIR_ffhq_blur.yaml`
+  - `configs/SDPnP_PGM/SDPnP_PGM_ffhq_superresolution.py`
+  - `configs/SDPnP_PGM/SDPnP_PGM_ffhq_blur.py`
+  - `configs/SDPnP_PGM/SDPnP_PGM_ffhq_boxinpainting.py`
+  - `configs/SDPnP_ADMM/SDPnP_ADMM_ffhq_blur.py`
+  - `configs/SDPnP_DPIR/SDPnP_DPIR_ffhq_blur.py`
 
 
 ### 2) Execute the code
 ```
-python sample.py --config configs/{YAML_FILE_NAME}.yaml    # example code: python sample.py --config configs/SGPnP_PGM/SGPnP_PGM_ffhq_boxinpainting.yaml
+python sample.py --config configs/{CONFIG_FILE_NAME}.py    # example code: python sample.py --config configs/SGPnP_PGM/SGPnP_PGM_ffhq_boxinpainting.py
 ```
 
 ## Implementation detail
 
 ```
-sample.py                                            # Read yaml file / set forward operator and data transform / initialize models
+sample.py                                            # Read config file / set forward operator and data transform / initialize models
 │   
 └────────── guided_diffusion/SGPnP_iteration.py      # Run SGPnP or SDPnP
 ```
