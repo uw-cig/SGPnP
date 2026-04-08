@@ -179,3 +179,4 @@ widgetsnbextension==4.0.9
 zipp==3.21.0
 zope.event==5.0
 zope.interface==7.1.1
+wandb==0.19.10

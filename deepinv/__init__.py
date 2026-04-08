@@ -34,10 +34,6 @@ from deepinv import physics
 
 __all__ += ["physics"]
 
-from deepinv import datasets
-
-__all__ += ["datasets"]
-
 from deepinv import transform
 
 __all__ += ["transform"]
